@@ -6,9 +6,9 @@ img = cv2.imread('../images/Stanley_Camo.jpg', 0)
 #Resize
 # imresize = cv2.resize(img, (800, 640))
 
-cv2.imshow('image', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# cv2.imshow('image', img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
 
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)
 cv2.imshow('image', img)
